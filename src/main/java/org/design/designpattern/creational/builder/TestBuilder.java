@@ -1,4 +1,4 @@
-package org.design.designpattern.builder;
+package org.design.designpattern.creational.builder;
 
 public class TestBuilder {
 

@@ -1,4 +1,4 @@
-package org.design.designpattern.factory.abstractFactory;
+package org.design.designpattern.creational.factory.abstractFactory;
 
 public interface CheckBox {
 

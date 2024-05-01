@@ -1,4 +1,4 @@
-package org.design.designpattern.factory.factoryMethod;
+package org.design.designpattern.creational.factory.factoryMethod;
 
 public class CommercialPlan extends Plan {
     @Override

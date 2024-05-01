@@ -1,4 +1,4 @@
-package org.design.designpattern.protoype;
+package org.design.designpattern.creational.protoype;
 
 public class Bird implements Cloneable<Bird> {
 
