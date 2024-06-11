@@ -1,5 +1,7 @@
 package org.design.designpattern.creational.builder;
 
+import lombok.Builder;
+
 public class UserExam {
 
     private int hindiMarks;
@@ -22,6 +24,7 @@ public class UserExam {
     public int getMathMarks() {
         return mathMarks;
     }
+
 
     public static class Builder{
         private int hindiMarks;

@@ -1,0 +1,29 @@
+Step by step framework for designing LLD
+
+1. Gather the requirements
+    a. do want desktop application or web application ?
+    b. Define the entity for example if asked to design pen ask what is pen is anything that can write is a pen.
+    c. Define the physical structure of entity like what is colour of pen, what is size of pen, will have refills?
+    d. Type of entity like is it ball pen , gel pen , or marker
+    e. Behavior of different type of entity like it writes.
+2. Clarifying the requirements
+    a. ask about edge cases
+3. Use case diagram
+4. Class diagram of Entities., Also relation Entity if they are having attributes.
+    a. all noun in system
+    b. try to visualize the system you will get to know.
+5. Schema diagram.
+    a. For every clss you see in class diagram create entity for the same and Map every attribute to col of table
+    b. for the table exist till now find cardinality of relationship
+      i) 1 to 1 relationship you can add col id to either table.
+      ii) 1 to m you can add col id to m side.
+      iii) m to m better create mapping table.
+    c. represent all relation as table
+    d. for every mapping table we should also add class for them. (add only those class which has attributes because other would be added by @mapping )
+    e.  repeat b to d.
+
+
+
+
+
+
